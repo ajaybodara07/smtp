@@ -1,0 +1,31 @@
+{
+  "name": "truffle-hello",
+  "version": "1.0.0",
+  "description": "Simple Hello World Application using React JS and Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/.bin/http-server ./public/dist/ --port 3000",
+    "migrate": "./node_modules/.bin/truffle migrate --reset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "axios": "^0.24.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "http-server": "^14.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "web3": "^1.6.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "truffle": "^5.4.26"
+  }
+}

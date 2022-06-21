@@ -1,0 +1,11 @@
+{
+    "name": "truffle-hello",
+    "version": "1.0.0",
+    "description": "Simple Hello World Application using React JS and Ethereum",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production"
+    }
+}
